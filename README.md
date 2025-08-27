@@ -79,35 +79,18 @@ cPEPmatch
 
 ## Installation and Setup
 
+> Modified by Pham Nguyen Hung
+
 ## Prerequisites
-- Anaconda (recommended over Miniconda for compatibility reasons)
+- **Anaconda**: `pip` will not work.
 
-Creating a Conda Environment
-Create a dedicated Conda environment for cPEPmatch:
+## Install Conda Environment
+Creating the Conda Environment with
 ```bash
-conda create -n "cpepmatch" python=3.7.11
-
+conda env create -f environment.yml
 conda activate cpepmatch
-``` 
-## Install Required Python Packages
-Install the necessary Python packages using the requirements.txt file:
-```bash
-  pip install -r requirements.txt
-``` 
-## Install Additional Conda Modules
-Some modules need to be installed specifically via Conda:
- ```bash
- conda install -c conda-forge vmd.python
-
-conda config --add channels salilab
-
-conda install modeller
 ```
-However, it will instruct you to modify /home/user/miniconda3/envs/server/lib/modeller-10.3/modlib/modeller/config.py and replace XXXX with your Modeller licence key (in this case: MODELIRANJE). Execute the command again. </br>
-If the installation of vmd-python doesn't work, go to https://github.com/Eigenstate/vmd-python, download the repo, and run it.
-
-VMD-Python Installation Issues
-If you encounter issues installing vmd-python, visit vmd-python GitHub for alternative installation methods.
+It will instruct you to modify some file such as /home/user/miniconda3/envs/server/lib/modeller-10.3/modlib/modeller/config.py. Replace XXXX with your Modeller licence key (in this case: MODELIRANJE).
 
 ## Making the Script Executable and Setting Up PATH
 
