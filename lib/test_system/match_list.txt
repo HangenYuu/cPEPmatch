@@ -1,0 +1,14 @@
+List of matches found by cPEPmatch.
+Motif Size: 5 
+Interface Cutoff: 6 
+Fit-RMSD Threshold: 0.5 
+
+ Match  PDB   Dist-RMSD      cPep Residues              PP-Interface Residues      Fit-RMSD
+
+     1  5kgn    0.3993       7    8    9   10   11      91   92   93   94   95      0.1394
+     2  5kgn    0.4295       8    9   10   11   12      91   92   93   94   95      0.2732
+     3  5otv    0.2734      15   16   17   18   19      91   92   93   94   95      0.1020
+     4  6ult    0.2587       5    6    7    8    9      91   92   93   94   95      0.0829
+     5  7knf    0.4090       8    9   10   11   12      91   92   93   94   95      0.1964
+     6  7knf    0.4175       7    8    9   10   11      91   92   93   94   95      0.1431
+     7  7kng    0.3345       7    8    9   10   11      91   92   93   94   95      0.1374
